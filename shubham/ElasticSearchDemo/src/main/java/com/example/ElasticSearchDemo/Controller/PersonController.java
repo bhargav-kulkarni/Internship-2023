@@ -26,21 +26,21 @@ public class PersonController {
     {
         return (Iterator<Person>) personService.getAllPerson().iterator();
     }
-//
-//    @PostMapping("/person/")
-//    public  Person addPerson(@RequestBody Person person) {
-//        return personService.save(person);
-//    }
-//    @GetMapping("/person/{id}")
-//    public Optional<Person> getByID(@PathVariable int id)
-//    {
-//        return  personService.getById(id);
-//
-//    }
-//
-//    @DeleteMapping("/person/{id}")
-//    public void deleteById(@PathVariable int id)
-//    {
-//       personService.deleteById(id);
-//    }
+
+    @PostMapping("/person/")
+    public  Person addPerson(@RequestBody Person person) {
+        return personService.save(person);
+    }
+    @GetMapping("/person/{id}")
+    public Optional<Person> getByID(@PathVariable int id)
+    {
+        return  personService.getById(id);
+
+    }
+
+    @DeleteMapping("/person/{id}")
+    public void deleteById(@PathVariable int id)
+    {
+       personService.deleteById(id);
+    }
 }

@@ -24,6 +24,7 @@ import org.springframework.data.elasticsearch.repository.config.EnableElasticsea
 @Configuration
 @EnableElasticsearchRepositories(basePackages = "*")
 public class ElasticConfig  {
+public class ElasticConfig  {
 
 
     @Autowired

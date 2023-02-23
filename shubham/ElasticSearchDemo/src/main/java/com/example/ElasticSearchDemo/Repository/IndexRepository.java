@@ -10,3 +10,4 @@ import com.example.ElasticSearchDemo.Entity.Person;
 @EnableElasticsearchRepositories
 public interface IndexRepository extends ElasticsearchRepository<Person,String> {
 }
+
