@@ -70,6 +70,7 @@ public class MainClass {
             }
         }catch(Exception e)
         {
+            System.out.println("Hello");
             throw new RuntimeException("Something went wrong");
         }
     }
