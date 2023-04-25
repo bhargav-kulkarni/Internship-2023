@@ -2,7 +2,7 @@
 # Projects
 ---
 
-#Project:Elastic Search Demo
+# Elastic Search Demo
 --------
 - It is used to Elastic Search in Spring Boot
 
@@ -29,7 +29,7 @@ Open new Intellj and open Elastic Search Demo project  and Run it
 
 ---
 
-# project:LogViewer 
+#  LogViewer 
  - I added README File inside LogViewerBackend 
  - follow the instructions.
 
@@ -37,7 +37,7 @@ Open new Intellj and open Elastic Search Demo project  and Run it
 ---
 ---
 
-# project:React testing
+# React testing
 
 - open Project in Visiual studio 
 - Run it
@@ -49,7 +49,7 @@ Open new Intellj and open Elastic Search Demo project  and Run it
 
 
 ----
-# Project:Redux App
+# Redux App
 - open project in Visiual studio
 - Run it
 
