@@ -7,7 +7,7 @@
 - It is used to Elastic Search in Spring Boot
 
 ----
-## Run Locally
+# Run Locally
 
 Clone the project
 
@@ -37,7 +37,7 @@ Open new Intellj and open Elastic Search Demo project  and Run it
 ---
 ---
 
-#project:React testing
+# project:React testing
 
 - open Project in Visiual studio 
 - Run it
@@ -49,7 +49,7 @@ Open new Intellj and open Elastic Search Demo project  and Run it
 
 
 ----
-#Project:Redux App
+# Project:Redux App
 - open project in Visiual studio
 - Run it
 
