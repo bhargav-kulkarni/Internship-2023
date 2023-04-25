@@ -3,11 +3,10 @@
 ---
 
 # Elastic Search Demo
---------
+
 - It is used to Elastic Search in Spring Boot
 
-----
-# Run Locally
+ Run Locally
 
 Clone the project
 
