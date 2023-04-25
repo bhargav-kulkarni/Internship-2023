@@ -6,33 +6,31 @@
 
 - It is used to show how to use Elastic Search in Spring Boot
 
- Run Locally
+- Run Locally
 
-Clone the project
+- Clone the project
 
 ```bash
   git clone https://github.com/bhargav-kulkarni/Internship-2023.git
 ```
 
-Go to the project directory
+- Go to the project directory
 
 
 ```bash
   cd  shubham/Docker-compose
 ```
 
-Open this project in  Intellj 
-Run it
+- Open this project in  Intellj and Run it
+
 --
---
-Open new Intellj 
+- Open new Intellj 
 
 ```
 cd shubham/ElasticSearchDemo
 ```
 
-Open this Project in Intellj
-and Run it
+- Open this Project in Intellj and Run it
 
 ---
 
