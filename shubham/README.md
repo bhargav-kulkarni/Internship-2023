@@ -21,11 +21,18 @@ Go to the project directory
   cd  shubham/Docker-compose
 ```
 
-Open project in  Intellj 
+Open this project in  Intellj 
 Run it
-
 --
-Open new Intellj and open Elastic Search Demo project and Run it 
+--
+Open new Intellj 
+
+```
+cd shubham/ElasticSearchDemo
+```
+
+Open this Project in Intellj
+and Run it
 
 ---
 
