@@ -18,13 +18,13 @@ This Project is created for the developer to find the Exception and Errors in a 
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/bhargav-kulkarni/Internship-2023.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd shubham/LogViewer
 ```
 
 Install dependencies
@@ -39,7 +39,10 @@ Start the server
   npm run start
 ```
 
-then git clone Rest Api of Spring Boot LogViewer
+Go to LogViewer Backend
+Open this folder into Intellij
+
+Run the MainApplication
 
 '''
 Start Rest Api Web Server
@@ -58,11 +61,35 @@ To run tests, run the following command
 
 ![App Screenshot](https://github.com/bhargav-kulkarni/Internship-2023/blob/main/shubham/Images/1.png)
 
+
+
+
+
+
 ![App Screenshot](https://github.com/bhargav-kulkarni/Internship-2023/blob/main/shubham/Images/2.png)
+
+
+
+
+
+
 
 ![App Screenshot](https://github.com/bhargav-kulkarni/Internship-2023/blob/main/shubham/Images/3.png)
 
+
+
+
+
+
+
 ![App Screenshot](https://github.com/bhargav-kulkarni/Internship-2023/blob/main/shubham/Images/4.png)
+
+
+
+
+
+
+
 
 ![App Screenshot](https://github.com/bhargav-kulkarni/Internship-2023/blob/main/shubham/Images/5.png)
 
