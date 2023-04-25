@@ -4,7 +4,7 @@
 
 # Elastic Search Demo
 
-- It is used to Elastic Search in Spring Boot
+- It is used to show how to use Elastic Search in Spring Boot
 
  Run Locally
 
@@ -16,20 +16,21 @@ Clone the project
 
 Go to the project directory
 
+
 ```bash
-  cd my-project
+  cd  shubham/Docker-compose
 ```
 
-Open project Intellj 
+Open project in  Intellj 
 Run it
 
 --
-Open new Intellj and open Elastic Search Demo project  and Run it 
+Open new Intellj and open Elastic Search Demo project and Run it 
 
 ---
 
 #  LogViewer 
- - I added README File inside LogViewerBackend 
+ - Added README File inside LogViewerBackend 
  - follow the instructions.
 
 
@@ -44,7 +45,7 @@ Open new Intellj and open Elastic Search Demo project  and Run it
 ```
   npm start
 ```
-- This is Project is used for basic understanding of React testing
+- Project is used for basic understanding of React testing
 
 
 ----
@@ -56,12 +57,12 @@ Open new Intellj and open Elastic Search Demo project  and Run it
  npm start
 ```
 
-- Project is used basic understanding of Redux in react
+- Project is used for basic understanding of Redux in react
 
 ---
 
 # News App
-- It is used for get Daily news
+- It is used for getting Daily news
 - open project in Visiual studio
 - Run it
 
@@ -69,5 +70,5 @@ Open new Intellj and open Elastic Search Demo project  and Run it
  npm start
 ```
 
-- Project is used basic understanding of react
+- Project is used for basic understanding of react
 ---
