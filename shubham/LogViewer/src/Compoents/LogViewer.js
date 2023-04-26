@@ -1,31 +1,49 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { isValidElement } from "react";
+
+import { useDispatch, useSelector } from "react-redux";
+import { bindActionCreators } from "redux";
+import { actionCreators } from "../Redux/ActionCreaterMain";
+import { useEffect } from "react";
 
 const LogViewer = () => {
 
     const [search, setSearch] = useState("");
-    const [logData, setlogData] = useState("");
-    const [filterData, setFilterData] = useState("");
 
-    const fetchData = () => {
+    const LogViewerData = useSelector(state => state.LogViewer);
+    console.log("LogViewer" + LogViewerData)
+
+    const dispatch = useDispatch();
+    const actions = bindActionCreators(actionCreators, dispatch)
+
+
+    const fetchData = (search) => {
         const url = "http://localhost:8182/api/logs/" + search;
-        fetch(url)
+        return fetch(url)
             .then(response => response.json())
             .then((data) => {
                 let data1 = JSON.stringify(data);
                 let data2 = data1.split('"logsSet":');
                 let data3 = (data2[1]).split(",")
 
-
-                setlogData(data3)
+                const ArrayData = [];
+                ArrayData.push(data1);
+                console.log("ArrayData" + ArrayData);
+                return ArrayData;
             })
             .catch(error => console.error(error));
     }
+
+
     const handleContainerLogView = () => {
 
-        fetchData();
-
-
+        fetchData(search)
+            .then((data) => {
+                if (data != null) {
+                    actions.searchData(data)
+                }
+            })
+            .catch(error => console.error(error));
     }
 
     const handlePrint = () => {
@@ -33,7 +51,7 @@ const LogViewer = () => {
         var a = window.open('', '', 'height=500, width=500');
         a.document.write('<html>');
         a.document.write('<body > <h6>Logs Viewer <br><br><br>');
-        a.document.write(logData);
+        a.document.write(LogViewerData);
         a.document.write('</body></html>');
         a.document.close();
         a.print();
@@ -67,7 +85,7 @@ const LogViewer = () => {
                     <div className="container" data-spy="scroll">
                         <h1>Docker Error logs</h1>
                         <div className="form-group" id="logContent">
-                            <textarea className="form-control" title="textArea1" disabled={true} value={logData} rows="16"></textarea>
+                            <textarea className="form-control" title="textArea1" disabled={true} value={LogViewerData} rows="16"></textarea>
                         </div>
 
                     </div>
