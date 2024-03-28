@@ -3,5 +3,5 @@ steps:
     args: [
       '--request', 'POST',
       '--data', '{"text":"Happy birthday Shubham the Puller king!"}',
-      'https://hooks.slack.com/services/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'
+      'https://hooks.slack.com/services/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'
     ]
