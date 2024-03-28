@@ -1,6 +1,7 @@
 steps:
-  # Step 1: Your build steps here
-
-  # Step 2: Send notification to Slack
   - name: 'gcr.io/cloud-builders/curl'
-    args: ['--request', 'POST', '--data', '{"text":"Hello world for sumeet and shubham"}', 'https://hooks.slack.com/services/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']
+    args: [
+      '--request', 'POST',
+      '--data', '{"text":"Hello, World!"}',
+      'YOUR_SLACK_WEBHOOK_URL'
+    ]
