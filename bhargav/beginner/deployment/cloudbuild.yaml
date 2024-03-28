@@ -2,6 +2,6 @@ steps:
   - name: 'gcr.io/cloud-builders/curl'
     args: [
       '--request', 'POST',
-      '--data', '{"text":"Hello, World!"}',
-      'YOUR_SLACK_WEBHOOK_URL'
+      '--data', '{"text":"Happy birthday Shubham the Puller king!"}',
+      'https://hooks.slack.com/services/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'
     ]
