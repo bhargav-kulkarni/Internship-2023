@@ -18,6 +18,7 @@ public class RestApiControlller {
     @GetMapping("/home/books/{bookId}")
     public Book getBook(@PathVariable String bookId)
     {
+        System.out.println("hello world");
         return bookService.getBook(bookId);
     }
 }
